@@ -1,4 +1,4 @@
-Descripción del Proyecto
+# Descripción del Proyecto
 
 Este proyecto es una aplicación web para gestionar usuarios.
 
@@ -12,7 +12,7 @@ Frontend (Cliente): Desarrollado con React y Ant Design para la interfaz de usua
 
 Backend (API): Servidor desarrollado por Flexxus.
 
-Tecnologías Utilizadas
+# Tecnologías Utilizadas
 
 -React
 
@@ -20,27 +20,31 @@ Tecnologías Utilizadas
 
 -React Context (para manejo de estado global)
 
-Instrucciones para Ejecutar el Proyecto
+# Instrucciones para Ejecutar el Proyecto
 
 Sigue estos pasos para inicializar tanto el servidor como el cliente:
 
 PASO 1: Inicializar el Servidor (Backend)
 
+```bash
 cd ./api
 npm install
 npm run server
+```
 
 Por defecto, el servidor se inicializará en el puerto (http://localhost:4000/users).
 
 PASO 2: Inicializar el Cliente (Frontend)
 
+```bash
 cd ./client
 npm install
 npm start
+```
 
 La aplicación se abrirá automáticamente en tu navegador en la dirección http://localhost:3000.
 
-Funcionalidades Principales
+# Funcionalidades Principales
 
 Listado de Usuarios: Muestra una tabla con todos los usuarios registrados.
 
