@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "flx-technical-interview-api": "file:",
     "json-server": "^0.16.3"
   },
   "scripts": {
